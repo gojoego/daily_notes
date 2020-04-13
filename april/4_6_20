@@ -1,0 +1,54 @@
+4_6_2020
+
+1) AWS 
+2) EC2
+3) Apache Web Server: front end application
+4) Apache Tomcat Server 
+
+AWS: Amazon Web Services 
+
+-cloud storage replacing on site servers
+-allows for redundancy in databases (no SPOF)
+	-usually means 3 nodes
+-RDS: Relational Database Service
+	-automatic scaling and backup 
+-EC2: Elastic Cloud Computing 
+-availability zones to prevent disruption of service
+	-cross availability zones deployments and redundancy 
+-S3: simple storage service
+	-online directory of buckets 
+	-cold storage for large amounts of data
+-fault tolerance: can backup using images 
+-AWS CLI: bash scripting for automation 
+-VPC: Virtual Private Cloud
+-IAM: Identity Access Management (roles for different users)
+
+web container
+-or servlet container
+-component of web server that interacts with Java servlets
+-responsible for 
+	-managing lifecycle of servlets
+	-mapping URL to particular servlet
+	-ensuring URL requester has correct access-rights
+
+Java servlet
+-software component that extends capabilities of server
+-can respond to many types of requests
+-most commonly implement web containers for hosting web applications on web servers 
+-qualifies as server-side servlet web API
+
+
+general process for deploying web app on aws server: 
+-launch ec2 instance
+-configure security groups(80 and 8080)
+-connect to instance using SSH
+-configure instance:
+	-install Java
+	-install Apache Web Server
+	-install Apache Tomcat Web Application Server
+Configure that instance (install Java, Apache Web Server, Apache Tomcat Web Application Server)
+Deploy web site to apache web server in “/var/www/html/” directory
+Clean, Compile and Package a Java RESTful API into a .war file
+Deploy that .war file (our RESTful API) to apache tomcat in “/var/lib/tomcat8/webapps/” directory
+
+

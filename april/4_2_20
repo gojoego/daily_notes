@@ -1,0 +1,34 @@
+4/2/2020
+
+utilize keyboard shortcuts 
+
+style out mutts app 
+
+login page 
+
+Set up all these functions in mutts_app:
+
+GET ALL USERS: http://demo.codingnomads.co:8080/muttsapp/users/
+GET USER BY ID: http://demo.codingnomads.co:8080/muttsapp/users/3
+GET CHAT LIST BY USER ID: http://demo.codingnomads.co:8080/muttsapp/users/3/chats
+GET CHAT DETAIL: http://demo.codingnomads.co:8080/muttsapp/users/3/chats/4
+POST -NEW USER http://demo.codingnomads.co:8080/muttsapp/users/
+
+{
+    "first_name": "Cameron",
+    "last_name": "Mullins",
+    "username": "camcam",
+    "photo_url": "https://avatars1.githubusercontent.com/u/17677574?s=460&v=4"
+}
+
+POST NEW CHAT: http://demo.codingnomads.co:8080/muttsapp/users/3/chats/7
+{
+    "chat_title": "ryan and cameron"
+}
+
+POST NEW MESSAGE: http://demo.codingnomads.co:8080/muttsapp/users/4/chat
+{
+    "sender_id" : 4,
+    "chat_id": 1,
+    "message": "awesome!"
+}
