@@ -1,0 +1,24 @@
+Why do we use enumerations?
+
+fixed constants
+
+What is a good example of a set of enumerations (that you didn't read about here)?
+What is a parameterized enumeration?
+When is the constructor of an enum called?
+Is it possible to have a public enum constructor? 
+Can you invoked an enum constructor from another class or package?
+Are enums akin to constants?
+
+
+
+create own arraylist from scratch
+
+
+I/O
+
+communications
+files 
+
+
+Byte Stream
+
