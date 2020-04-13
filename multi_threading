@@ -1,0 +1,21 @@
+Create at least 3 classes that extend Thread and each must do something a little different - then show how to start these threads from another class
+
+Create at least 3 classes that implment Runnable - demonstrate the two ways we can start a Runnable (one in the constructor, and one not in the constructor) - then show how to start these Runnable threads from another class
+
+extending Thread hints:
+public MyNewThread(String name){
+    super(name);
+    start();
+}
+implementing Runnable hints:
+public MyNewRunnable(String name){
+    thrd = new Thread(this, name);
+    thrd.start();
+}
+and… (how do we use this Runnable?)
+public class MySecondRunnable implements Runnable {
+    @Override
+    public void run() {
+        System.out.println("I'm in MySecondRunnable");
+    }
+}
