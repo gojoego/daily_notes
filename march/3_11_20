@@ -1,0 +1,84 @@
+3/11/2020
+
+Java CLASSPATH- where JVM looks for unfound dependencies 
+
+export PATH
+export DB
+export CLASSPATH
+
+maven 
+-external libraries
+gradle
+
+build tools/dependency management
+
+j unit
+
+mvn clean- deletes target directly 
+mvn compile- compiles code 
+mvn package 
+mvn install 
+mvn test - run all tests
+
+unit testing 
+-first dependency test in maven 
+"breaking the build" with @test
+
+testing a unit of code 
+
+pom.xml 
+-in every maven projects
+-xml - key value pairs 
+restful api 
+
+group id and artifacts 
+-
+
+
+create a new class in the MyFirstMavenProject, within that class write at least 5 methods that take different types of arguments and return different types of data - then write test cases against all 5 of them in a test class
+
+
+you can:
+assertEquals
+assertNotEquals
+assertTrue
+assertFalse
+assertArrayEquals
+assertNull
+assertNotNull
+assertThrows
+
+
+
+
+
+3:49
+get creative - please do not write multiple(), divide(), subtract(), and addition() methods
+
+
+
+api 
+
+restful api- 
+http protocol
+
+get- select 
+put- update
+post- insert
+delete- delete 
+patch- partial update 
+
+http-  
+verbs 
+
+pass json, return json 
+
+protocol domain name, com, refinement path of URL, ? after this is search 
+path variables, 
+
+create a couple new endpoints 
+
+
+
+
+
