@@ -1,0 +1,62 @@
+4_21_20
+
+Goals for Today: 
+
+1. create a working registration page for mutts_app
+2. debug senderId for specific chats
+3. work on SQL queries 
+
+Pro Tips:
+
+1.  POJOs do not have to map or match exactly to their corresponding
+	SQL tables in a database 
+2.	Break points for debugging: best practice to place it on the 
+	first line of executable code 
+3.	Store MySQL passwords in keychain (for Mac users)
+4. 	Switch databases in MySQL by double clicking on database you 	
+	want to work with 
+	
+SQL: Structured Query Language
+
+MySQL
+-database technology/application 
+-can access via terminal by logging into the MySQL shell 
+
+MySQL Workbench
+-GUI for connecting to and managing a MySQL database 
+
+SQL databases 
+-relational
+-analytical(OLAP)
+
+NoSQL databases
+-column-family
+-graph
+-document
+-key-value
+
+Accessing MySQL via the CLI
+
+starting MySQL:
+sudo /usr/local/mysql/support-files/mysql.server start 
+
+(will get error if MySQL already running)
+
+alternative to above method: 
+
+sudo launchctl load -F /Library/LaunchDaemons com.oracle.oss.mysql.mysqld.plist 
+
+
+check version of MySQL:
+
+mysql --version
+
+Accessing column in MySQL table: table_name.column_name
+
+Column Attributes:
+
+PK: primary key
+NN: not null
+UN: unsigned (only positive integers)
+AI: auto increment
+G: generated column 
