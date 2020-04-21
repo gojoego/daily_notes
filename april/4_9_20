@@ -1,0 +1,97 @@
+4_9_20
+
+MVC frameworks 
+
+Model-View-Controller (MVC)
+-architectural pattern that separates app into three main logical components: 
+	-model
+	-view
+	-controller
+-each component built to handle specific development aspects of app 
+-frequently used industry-standard web development framework to create scalable and extensible projects
+
+spring mvc
+
+pure JS and MVC- two different ways to do the same thing 
+
+most server side powered are blend of two 
+
+with pure JS, includes HTML and CSS files 
+anything in HTML file 
+CSS rendered and JS executed 
+
+with restful apis been using rest controller 
+
+with MVC it's just controller 
+@controller- just serves web pages rather than api responses 
+
+POJOs data model in apps- primary data elements 
+-> data model in web page variables html needs to be dynamically populated 
+- still data model that needs to be populated into the view , what the client views 
+
+created model and view object 
+spring knows that anything in resources folder will be available to app and class path 
+
+-static
+-templates 
+
+server side rendering 
+react as view portion 
+
+
+
+
+@Controller 
+-Model model gets passed in with spring's dependency injection 
+-pay attention to return type 
+-Thymeleaf 
+
+greeting example: 
+
+create student object with id and name 
+create arraylist with students- similar to something we'd have in a service class 
+
+add attribute student 
+
+thymeleaf- setting variables as HTML 
+ th: text 
+
+ th: object 
+
+
+mybatis 
+-partial ORM 
+
+hibernate 
+java persistence api 
+goal is to minimize complexity of DBs 
+
+
+data jpa applications 
+
+-accessingdatajpaapplication
+-customer 
+-customer repo 
+
+Logger
+
+saving to DB- where? 
+
+is the schema the only thing we have to make in mysql 
+bigint equal to a long 
+
+
+
+what do you want to do with your mutts_app
+
+make it look sleek with dark blues and to practice css 
+
+Tasks: 
+
+add images to http://localhost:8080/mvc/news?query=coronavirus 
+
+mvc project
+
+
+
+

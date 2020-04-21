@@ -1,0 +1,97 @@
+4_14_20
+
+Spring Security
+
+@bean
+
+@Configuration methods 
+
+a lot to be overridden 
+
+take in different arguments 
+
+with spring security will override configure methods 
+
+2 things that spring sec work on 
+-authentication 
+-authorization: once logged in, permissions 
+
+filter chain 
+will add security step
+filters all inbound request before touching any controllers 
+
+method chaining 
+-can copy and paste 
+
+.authorizedRequests
+	.antMatchers.permitAll
+.formLogin()
+
+mvc config
+-stands in place of controller 
+-sets up endpoints 
+-sets up views 
+-model not affected 
+-
+
+.addViewController in @Configuration 
+
+in xml pull in springbootstartersecurity 
+
+always set up security first 
+
+end user submits request, request passes through authentication if approved, request hits endpoint and returns desired out to end user
+
+HTTP request, Spring Security, Controllers, Service, Mapper, JPA/MyBatis Database
+
+
+
+
+CODING CHALLENGE:
+
+-build MuttsApp backend
+
+-create Java MVC application
+	-also using RESTful API Endpoints
+
+-application secured using 
+	-spring security Basic Authentication
+	-MySQL(jdbcauthentication)
+
+-transfer front-end resources to "resources" folder in IntelliJ project
+
+-back-end will need to support all calls currently available:
+	http://demo.codingnomads.co:8082/muttsapp/users/
+	(get all users)
+	http://demo.codingnomads.co:8082/muttsapp/users/3
+	(bring up one specific user)
+	http://demo.codingnomads.co:8082/muttsapp/users/3/
+	(bring up one specific user)
+	http://demo.codingnomads.co:8082/muttsapp/users/3/chats
+	(bring up chats for one specific user)
+	http://demo.codingnomads.co:8082/muttsapp/users/3/chats/1
+	(brings up specific chats between 2 users)
+
+-can modify, update, upgrade these endpoints as you see fit
+-simple DB schema, login.html and registration.html forms, and loginController provided
+
+
+Transferring front end files (html, css, js) to IntelliJ project
+(replicate/mirror this directory tree in IntelliJ project):
+
+-resources
+	- static
+		- css
+			style.css
+			login.css
+			registration.css
+		- js
+			script.js
+		- images
+			any/all images your app needs
+	- templates
+		login.html
+		registration.html
+		- admin
+			index.html (your muttsapp index.html)
+

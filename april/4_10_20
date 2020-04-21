@@ -1,0 +1,34 @@
+4_10_20
+
+previously learned JDBC using mysql 
+
+jpa replaces that 
+
+mybatis "halfway point" between jpa/hibernate and jdbc
+
+methods and functionalities that was written to advance interaction with databases 
+
+@restcontroller: restful api, returns
+
+@controller: model view or strings 
+
+jpa
+
+reading- selecting one or many 
+
+interfaces, most common, jpa and crud repos 
+
+T, ID 
+
+T will become class you're trying to run queries on
+ID is date type 
+
+dbs = sometimes data written to file any data in between gets pushed
+
+@Entity corresponding data in the table
+
+
+JPA repo extends another class that extends CRUD repo 
+
+
+change to rest controller- mimic product but make it work for
