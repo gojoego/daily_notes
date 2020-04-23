@@ -1,0 +1,21 @@
+4_15_20
+
+Spring Security 
+
+@Controller: mvc, returns views html not json 
+
+MVC and rest controllers can be used side by side 
+
+
+if I am trying to replicate the mutts_app database from my local machine
+create a database
+create a mapper with SQL queries performing the desired task 
+
+add spring security 
+every page will need authentication, will need to "link" to database 
+two roles
+user 
+admin 
+mapper for this? 
+
+
