@@ -1,0 +1,21 @@
+3/24/20
+
+SVG: Scalable Vector Graphics
+
+opening and closing brackets for SVGs:
+<svg> </svg>
+
+graphic created by css code
+
+
+Here are your tasks to finish up this skeleton:
+
+1. Finish the New Message Box (at bottom of chat)
+
+2. Get content into the Header to the top right
+
+	-For the new message box, get the content displayed horizontally and displaying like the example photo below.
+
+	-For the header, add an image with the source defaultIcon.svg in the images folder, a phone number or contact name, and the SVG icons separated into an unordered list and displaying horizontally without bullet points.
+	
+	-If you get these done, see if you note any other style points that are different from the picture and can be improved (for example, the color of the separation between message preview boxes in the sidebar) (edited) 

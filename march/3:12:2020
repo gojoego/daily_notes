@@ -1,0 +1,98 @@
+3/12/2020
+
+JSON prettifier
+NYTimes API 
+RESTful API 
+SOAP API
+POSTMAN (rest client)
+MyBatis 
+CRUD example 
+CRUD project 
+
+REST
+representational state transfer 
+
+MVC 
+model - headlines
+view - HTML + CSS
+controller - headlines to HTML 
+
+
+mybatis
+-controllers (404)
+-mappers (database)
+-model (classes)
+-services 
+
+created new project called mybatis-test 
+spring boot project
+
+create application.properties
+create spring-context.xml
+sql session factory every bean class needs to connect to db 
+"wiring" (now "annotation configuration")
+using data source 
+use bean every time 
+
+
+endpoints controller
+
+pojo- user class
+
+user service - service
+
+bean- java object managed by spring "spring beans"
+
+
+postman
+
+ is a powerful tool for performing integration testing with your API. It allows for repeatable, reliable tests that can be automated and used in a variety of environments and includes useful tools for persisting data and simulating how a user might actually be interacting with the system
+
+
+
+3/12 assignment:
+
+-extend our API to support PATCH and DELETE requests
+-these endpoints should “update” and “delete” resources in the DB
+-The PATCH should return the updated user to the client (like our POST does) -The DELETE should just set “isActive” to false, then also return that updated user to the client.
+Then, create an endpoint to “get” a user by ID using a PathVariable (example below)
+Then, create an entire set of CRUD (create, read, update, delete) endpoints for a new element (such as Tasks). This will require a, ie, TaskController, TaskService, TaskMapper, and Task Pojo. As well as a Task DB table. 
+You should then be able to:
+Create users, create tasks associated to users, view all tasks by userId, view all completed tasks by userId, view all incomplete tasks by userId, mark a users task as complete etc etc - all through the API.
+
+
+
+example of PathVariable:
+@RequestMapping("/{id}")
+public User getById(@PathVariable(value="id")int id) {
+    return userService.getById(id);
+}
+
+The url for the method above would be: “localhost:8080/users/1”
+
+
+example of RequestParam:
+@DeleteMapping
+public User deleteById(@RequestParam(value="id")int id){
+    return userService.deleteById(id);
+}
+
+
+
+
+
+The url of the method above would be “localhost:8080/users?id=1”
+
+
+feel free to use PathVariables and RequestParams as much as you like to complete the tasks above.
+
+
+(hint: you’ll also need a users_tasks DB table)
+
+
+
+
+
+
+
+

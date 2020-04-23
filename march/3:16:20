@@ -1,0 +1,36 @@
+3/16/20
+
+NOTE: usually no verbs in URLs 
+-to minimize variability 
+-verb is in the request type
+-want nouns in URL 
+
+
+/users 
+-can accept all 4 request types HTTP get post patch delete 
+
+no verbs in URL
+
+
+1) create sql search query 
+2) create mapper method
+3) task service - create
+
+go over pass by value and pass by reference 
+
+Car c = new Car
+Car d = c;
+d.rev = 1000; 
+
+will change all to 1000 
+pass by reference 
+
+
+User and tasks assignment 
+
+/users get all users POST PATCH DELETE 
+/users/7 get user id 7
+/users/7/tasks get tasks for user id 7
+/users/7/tasks?complete=T/F
+/tasks get all tasks POST PATCH DELETE
+/tasks/7 get task id 7 

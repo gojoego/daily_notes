@@ -1,0 +1,130 @@
+3/13
+
+spring framework
+-"framework of frameworks"
+-IOC container
+-IOC: inversion of control or dependency injection 
+-bean: any object that belongs to string 
+-dependency injection is "all or nothing"
+
+@RestContoller
+-the rest controller annotation designates the class as the controller
+-allows class to accept the inbound connections
+-indicates that this class will accept the inbound HTTP requests 
+like GET PATCH POST DELETE
+-spring will "wire" up the class when this annotation is called 
+
+-dispatcher servelet (like an ear that listens for requests)
+-component scan - will scan entire application for the keywords and wire the app 
+-comms with web server 
+spring boot- embedded tomcat web server 
+-tomcat runs on 8080/users
+-"does the listening"
+when going to localhost:8080, tomcat alerted that url was hit 
+tomcat then asks applications if they have anything at /users, spring will respond with yes if there is "/users"
+
+@RequestMapping /user
+-can be at class level 
+/users or /getByID
+
+@RequestParam
+-what we pass after the question mark 
+-request param followed by ? in URL
+key/value URL parameters always after "?" and delimited by "&"
+example: .com?q=coronavirus 
+-key value
+
+
+@PathVariable 
+-url parameters that are embedded in the URL between slashes (typically a required argument)
+
+
+@Autowired 
+-dependency injection
+-spring will provide this object wherever it's needed
+-allows mybatis to create object of mapper class, fill methods
+-then springs injects that object into our service 
+
+@Mapper 
+-tells MyBatis to get to work in here writing boiler plate code to map DZB results to objects and back to DB 
+	@Select - if you provide a suitable return type "user" MyBatis will a map a user query result to that object automatically 
+	@Update
+	@Insert
+	@Delete= 
+
+example: 
+
+@Mapper 
+public interface TaskMapper {
+	String SELECT_TASK_BY_ID = "select * from tasks where id = #{id}";
+
+@Select (SELECT BY TASK IS)
+public Task getTaskByID(int id);
+
+Task.java
+
+public class Task {
+	int id;
+	String name; 
+	boolean isComplete;
+}
+
+id, name, isComplete
+1, do dishes, 1
+2, read books, 0
+3, exercise, 1 
+
+
+
+NOTE: interfaces allows mybatis to fill in method
+
+
+@GetMapping
+public user getusers(){
+	return userService.getUsers()
+}
+
+@GetMapping
+
+two methods mapping to an endpoint 
+
+only one can exist 
+multiple only if request types are different 
+return response objects 
+
+
+
+
+https://www.bbc.co.uk/search?q=coronavirus
+
+q = query 
+
+path var - required 
+request params - optional or default
+
+
+https://www.findevents.com/events/concerts/rock?city=Atlanta&radius=10
+protocol      url.     tld  class methods   pv  ? request params k,v 
+
+tomcat receives request, forwards to spring, spring dispatches it to appropriate class and method 
+
+
+
+CRUD for users and tasks + associate tasks with users
+
+localhost:8080/users/2/tasks
+localhost:8080/users/7/tasks?complete=false
+localhost:8080/tasks/12
+localhost:8080/users/3
+localhost:8080/users/
+
+
+using postman-
+
+always have content type application/json for key value
+
+
+list of 10 dream jobs 
+simon sinek
+elevator pitch
+

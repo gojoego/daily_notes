@@ -1,0 +1,10 @@
+3/26/2020
+
+how to process a form
+event listeners 
+
+
+adding event listener wait for users to submit, use callback function to handle submission 
+
+when to use ID vs Class?
+<div id="self-image" class="img-wrap">

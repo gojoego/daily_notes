@@ -1,0 +1,69 @@
+3/30/2020
+
+forms
+-by default, try to submit via URL 
+-you'll see question mark followed by submission 
+-.preventDefault 
+	-does not refresh page
+	-does not submit via URL 
+
+
+asynchronous programming
+callbacks
+request pass function to request 
+when info comes back 
+
+ajax
+
+asynchronous javascript 
+creating request to send http req via url and get data back 	
+
+request object: XMLHttpRequest
+to open connection and instantiate requests with new keyword 
+append URL and use to get info 
+-can monitor many different stages 
+
+.onreadystatechange
+pass callback for what we want to do with info when it comes back 
+various ready states
+fourth done
+
+making web request
+what happens after request 
+java runs async- other stuff isn't blocked 
+event handler 
+
+callback hell
+-callback pass functions 
+
+promises 
+-prevent callback hell
+-come with ability to resolve and reject and handle callback functions in different way 
+-use Fetch 
+-will send url request 
+-event chaining with .then (in Java called method chaining )
+-methods chained together
+-url in fetch
+-fetch returns promise 
+-can monitor when done then use functions to create thigns on page 	
+- contains the http request 
+-header, content type 
+-fetch returns promise 
+-ability to resolve or reject depending on status that comes back 
+-comes in the form of an object
+-can extract data from body in  this object 
+-cannot access data until turning promise into json 
+-arrow function returns implicitly 
+
+similar to what happens in stream apis 
+
+automatic invocation of function 
+
+(function exampleFunction(){})();
+surround with parentheses
+follow with another set of empty parentheses 
+semicolon for good practice 
+
+when browser gets response, converts data to object of type json from text
+passes object and logs data 
+

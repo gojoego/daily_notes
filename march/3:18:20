@@ -1,0 +1,82 @@
+3/18/20
+
+linkedList- queue, popping from front 
+
+non-static: objects 
+static: static variables, 
+
+maven - package objects 
+
+spring 
+
+
+Front End 
+-HTML- structure 
+-CSS- way things look
+-Javascript- functionality 
+-chat application 
+
+hyper text transfer protocol 
+
+HTML
+-Hyper Text Markup Language
+
+Browser
+-gets HTML page from server 
+-tools: inspect, view page source
+-interprets HTML code 
+
+every HTML page starts with tag 
+head meta elements and links to CSS 
+
+HTML tags allow structure 
+
+H1- use sparingly 
+H tags- sizings and style 
+
+source code - 
+
+document object model 
+
+paragraph element: 
+
+href 
+
+
+unordered list - bullet points
+ordered list - 1,2,3,4
+
+button
+
+id=""
+
+multiple classes, 1 id 
+
+id 
+class
+style 
+source
+alt 
+
+data attribute
+-same as variable in Java
+-used to store information 
+
+table 
+-parent child relationship 
+parent has other elements inside of it 
+
+
+forms 
+
+id- javascript, css 
+value- backend 
+
+
+try to get chats on the left in pic pushed to git hub 
+recreate muttsapp
+use flex containers 
+
+
+
+

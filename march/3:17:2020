@@ -1,0 +1,17 @@
+3/17/2020
+
+https://api.nytimes.com/svc/search/v2/articlesearch.json?q=<warren>&api-key=<5nBxXjzMulphLlKN>
+
+C4ha94O1qVOLXyl5kxQkkAOL5AZojQV3
+
+
+Assignment:
+
+After you have the NYT mapping working, create a 2nd endpoint ("/analyze") that takes in 2 request params "searchTerm" and "keyword." Your API must query the NYT API for the "searchTerm" and count the number of times the "keyword" is present in both the "snippet" and "first_paragraph" of the response. Your ("/analyze") API should return a new POJO that looks like this:
+
+{
+	searchTerm: "Italy"
+	keyword: "Singing"
+	numOccurrences: 4 
+	numArticlesScanned: 10
+}
