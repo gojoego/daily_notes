@@ -1,0 +1,53 @@
+4_22_20
+
+https://us02web.zoom.us/j/4156769476
+
+SQL
+
+-primary key: unique identifier in a table
+-foreign key: keys that originate from a different table 
+
+RDBMS: Relational Database Management System 
+
+-data organized into tables or relations 
+-row called record or tuple
+-column called field or attribute 
+
+Primary database design objectives
+	-eliminate data redundancy
+		-same piece of data shall not be stored in more than 1 place 
+		-duplicate data is wasteful of storage and leads to 
+		inconsistencies 
+	-ensure data integrity and accuracy 
+	-provide access with information an end user needs to join tables together 
+
+working on: 
+
+getting main chat to update when side chats are clicked on 
+(updating picture, name, and chats between users)
+-when clicking on a sidechat, should pull from message and user table for
+	-message.message
+	-user.firstName
+	-user.lastName
+	-user.photoUrl
+
+chats are coming through but they are not designated by sender and recipient 
+-Console check: all the messages associated with the specific chat ID are coming through
+
+Debugging User Chats
+-issue: all chats are populating as an "in" bubble that indicates
+		a chat is from a sender that isn't you 
+-NOTES:
+	-javascript code written so that if senderId = userId then it will be
+	assigned an "out" bubble which indicates that it came from you 
+	-all messages coming "in" meaning that all message senders do not 
+	match the userId 
+	-because the senderId is still coming in as 0
+
+
+What do I feel that I don't know with this integration project? 
+-not 100% about the controller, service, repository/mapper classes
+-
+
+send new message
+create new messages with new people 
