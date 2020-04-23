@@ -1,0 +1,11 @@
+4_20_20
+
+to get actual message detail
+
+to get the message details (actual conversation between two people - the messages back and forth, for a given chat_id) I broke it into two steps:
+ public ArrayList<Message> getChatDetail(int id, int other_id) {
+    int chat_id = chatMapper.getChatIdForUserIds(id, other_id);
+    return chatMapper.getMessagesByChatId(chat_id);
+ }
+
+ clicking on kim chat will get messages between ryan and kim 

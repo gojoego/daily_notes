@@ -15,6 +15,7 @@ Pro Tips:
 3.	Store MySQL passwords in keychain (for Mac users)
 4. 	Switch databases in MySQL by double clicking on database you 	
 	want to work with 
+5. 	Refresh MySQL schemes before working on it 
 	
 SQL: Structured Query Language
 
@@ -60,3 +61,28 @@ NN: not null
 UN: unsigned (only positive integers)
 AI: auto increment
 G: generated column 
+
+EER: Enhanced Entity Relationship model
+-stored in .mwb file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
