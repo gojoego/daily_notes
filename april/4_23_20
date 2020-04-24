@@ -1,0 +1,26 @@
+4_23_20
+
+TypeError: Cannot read property 'forEach' of undefined
+-js trying to perform forEach on array that does not exist 
+
+Posting
+-when creating a user, always return created user 
+so we can see and confirm that user was created
+
+Creating new chats
+-will need two user ids
+	-userId
+	-otherUserId
+-new row in chat table 
+-new row in message table 
+
+The 405 Method Not Allowed is an HTTP response status code indicating that the specified request HTTP method was received and recognized by the server, but the server has rejected that particular method for the requested resource
+
+@query annotation 
+
+working on today: 
+
+-debugging why senderId is coming up zero, addressed
+-all chats coming as "in", addressed 
+-create new message 
+-create new conversation 
