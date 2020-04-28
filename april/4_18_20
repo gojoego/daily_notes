@@ -1,0 +1,34 @@
+4_18_20
+
+Java Persistence API 
+
+controller package:
+Controller class
+
+repositories package:
+Controller class
+Controller Repository class
+
+services:
+Service Class 
+
+App Main not in package but used to start/stop app
+
+in application.properties: 
+
+provide data source and credentials and variables
+
+in pom.xml: 
+-spring boot starter data jpa dependency 
+
+when app started,  looks at app pr, class at entity, app update ability, object class will map 1:1 with table 
+all boiler plate code 
+framework infers 
+
+href on th html file will refer to mapping in controller
+@RequestMapping 
+href="new" will find @RequestMapping("/new") in app controller 
+
+
+
+

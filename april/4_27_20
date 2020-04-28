@@ -1,0 +1,56 @@
+4_27_20
+
+caching
+
+different types of caching
+reddis
+eh cache
+
+big key value stores 
+
+big hashmaps that run in memory 
+
+used so often, will start running caches across servers 
+very large caches running on these servers 
+
+when you google, you'll get response in milliseconds 
+response already cached and building caches around queries 
+
+pre-loading cache 
+
+apache solar 
+
+backend processes took a while 
+ 
+not everything needs to cache 
+
+as apps get bigger and queries get larger, cache necessary 
+
+on heap 
+off heap
+
+springframework guru
+
+lombok 
+
+add dependency to pom.xml file 
+and can use @getter @toString @requiredArgsConstructor 
+
+won't need to create getters and setters
+
+lru - least recently used 
+
+resources- allowing how much resources to use 
+
+cache logger
+-cacheEventListener
+
+going back to the multiple keys with the same value, for hash mapping, can't there only be 1 key value pair 
+
+oauth2 
+-most secure 
+-
+
+
+
+

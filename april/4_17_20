@@ -1,0 +1,51 @@
+4_17_20
+
+questions: 
+extending CrudRepository vs JpaRepository 
+
+
+Using javascript to run web pages:
+
+-HTML, CSS, JS files in var directory in server
+-going to IP address in a web browser
+-anything in var directory will get returned to the browser
+-html will be rendered with CSS and JS executed
+-javascript can make calls back to API
+-API will return JSON files
+
+(similar to what we have been doing with mutts_app)
+
+MVC: Model View Controller
+
+mvc: model view controller
+-Model: data
+-View: HTML, CSS, etc
+-Controller: binds model to view then returns view to client
+
+MVC: temp
+
+mutts_app front-end/back-end integration assignment:
+-will be using both javascript and MVC
+-MVC used for login to serve back index.html + resources
+-Then javascript used to hot reload or dynamically modify content on the screen
+-javascript will makes API calls
+
+hot reloading
+-keep the app running and to inject new versions of the files that edited at runtime
+-less likely to lose any of your state which is especially useful if you are tweaking the UI
+
+using MVC: most effective for when the web page needs to go back to the server and full screen reload
+
+using javascript: 
+-most effective for when reloading small section of web page
+-not actually reloading web page, dynamic javascript call that updates html
+
+Spring MVC applications
+@Controller classes responsible for
+	-preparing model map with data
+	-selecting view to be rendered
+-model map allows for complete abstraction of view technology
+	-with Thymeleaf transformed into Thymeleaf context object
+	(part of Thymeleaf template execution context)
+	-makes all defined variables available to expressions
+	executed in templates

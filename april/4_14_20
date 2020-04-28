@@ -72,6 +72,8 @@ CODING CHALLENGE:
 	http://demo.codingnomads.co:8082/muttsapp/users/3/chats/1
 	(brings up specific chats between 2 users)
 
+	-reference previous mybatis 
+
 -can modify, update, upgrade these endpoints as you see fit
 -simple DB schema, login.html and registration.html forms, and loginController provided
 

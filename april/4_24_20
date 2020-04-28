@@ -1,0 +1,47 @@
+4_24_20
+
+Current problem: 
+
+I started working on and did not finish the feature to create a new conservation within MuttsApp. Now none of the sidebar chats and corresponding profile information is populating. 
+
+
+studying previous problem and debugging:
+
+user chats were not populating at all 
+
+pro tip: get rid of console logs you're not using 
+
+fetch is working and querying the database 
+
+getting the expected call and response 
+
+controllers talk to services
+services talk to mappers 
+
+SQL queries
+
+2 technicals with tech leads 
+1 culture 
+vivek- manager interview, problem solving skills 
+	what drives you? 
+satang- program management questions 
+roman- productivity 
+
+outline what she wants to do 
+
+
+code reviews 
+
+how I would use my non traditional background
+
+API 
+application programming interface
+
+
+new messages are being added to the database but they are not appearing when do an api call to the chats url 
+
+also not appearing in the primary chat window 
+
+something wrong with API endpoint in controller where it isn't pulling new data (at least start with the controller)
+
+could also something wrong with the javascript but starting with the controller first

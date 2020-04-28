@@ -2,6 +2,9 @@
 
 https://us02web.zoom.us/j/4156769476
 
+Pro Tip:	when using JPA, it is best not to use underscores 
+			use camel case instead 
+
 SQL
 
 -primary key: unique identifier in a table
