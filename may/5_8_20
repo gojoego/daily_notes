@@ -1,0 +1,225 @@
+5_8_20
+
+Go over: 
+
+Reversing an array
+Linked Lists
+HashMaps
+Bubble Sort
+Insertion Sort
+
+Bubble Sort: 
+
+-simplest sorting algorithm
+-works by repeatedly swapping adjacent elements if in wrong order 
+
+https://www.geeksforgeeks.org/bubble-sort/
+
+Linked Lists Data Structure 
+
+-linear data structure in which elements not stored at contiguous memory locations
+-elements linked using points 
+-consists of nodes where each node contains data field and reference link to next node in list 
+
+https://www.geeksforgeeks.org/data-structures/linked-list/
+
+https://dzone.com/articles/20-linked-list-interview-questions-for-java-progra
+
+HashMap
+
+-part of Java collection since Java 1.2
+-provides basic implementation of Map interface of Java 
+-stores data in Key/Value pairs
+-to access value must know key
+-uses Hashing technology 
+-Hashing: 
+	-technique of coverting large String to small String that represents same String
+	-short value helps in indexing and faster searches
+-HashSet:
+	-uses HashMap internally 
+	-internally uses link list to store key-value pairs 
+
+Important Features of the HashMap
+-part of java.util package
+-extends abstract class AbstractMap which also provides incomplete implementation of Map interface
+-implements Cloneable and Serializable interface
+	-K and V represent Key and Value
+-does not allow duplicate keys but allows duplicate values
+	-single key cannot contain more than 1 value but more than 1 key can contain single value
+-allows null key but only once and multiple null values 
+-class makes no guarantees as to order of map
+	-does not guarantee that order will remain constant over time
+	-similar to HashTable but unsynchronized 
+
+https://www.java67.com/2017/08/top-10-java-hashmap-interview-questions.html
+
+https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/
+
+Insertion Sort
+
+-simple sorting algorithm that allows for efficient, in-place, sorting of array, one element at a time
+-in-place sorting: original array modified and no temporary structures needed 
+
+https://www.educative.io/edpresso/what-is-insertion-sort-in-java
+
+https://www.educative.io/courses/visual-introduction-to-algorithms/kX44r
+
+unsorted 87, 33, 85, 35, 81, 37
+
+1st loop:
+(int i = 1; i < input.length; i++)
+(i = 1; 1 < 6; 1 + 1)
+
+int key = input[i] = input[1] = 33
+int j = 1 - 1 = 0
+
+(j >= 0 && input[j] > key)
+(0 >= 0 && input[0] = 87 > 33)
+
+input[j + 1] = input[j]
+input[1] = input[0], 33, 87
+input[1] = 87
+
+temp array: 87, 87, 85, 35, 81, 37
+
+j = j - 1 = -1
+
+input[-1 + 1] = input[0] = key, key = 33, input[0] = 33
+after 1st loop: 33, 87, 85, 35, 81, 37
+
+2nd loop:
+(int i = 2; i < input.length; i++)
+(i = 2; 2 < 6; 2 + 1)
+
+int key = input[i] = input[2] = 85
+int j = 2 - 1 = 1
+
+(j >= 0 && input[j] > key)
+(1 >= 0 && input[1] = 87 > 85)
+
+input[1 + 1] = input[j]
+input[2] = input[1], 85, 87
+input[2] = 87
+
+temp array: 33, 87, 87, 35, 81, 37
+
+j = j - 1 = 1 - 1 = 0
+
+(j >= 0 && input[j] > key)
+(0 >= 0 && input[0] = 33 > 85)
+
+exits loop 
+
+input[j + 1] = input[1] = 85
+after 2nd loop: 33, 85, 87, 35, 81, 37
+
+3rd loop: 
+
+(int i = 3; i < input.length; i++)
+(i = 3; 3 < 6; 3 + 1)
+
+int key = input[3] = 35
+int j = 3 - 1 = 2
+
+(j >= 0 && input[j] > key)
+(2 >= 0 && input[2] = 87 > 35)
+
+input[2 + 1] = input[3] = input[2] = 87
+
+temp array: 33, 85, 87, 87, 81, 37
+
+j = j - 1 = 2 - 1 = 1
+
+(1 >= 0 && input[1]=85 > 35)
+
+input[1 + 1] = input[2] = input[1] = 85
+
+temp array: 33, 85, 85, 87, 81, 37
+
+j = j - 1 = 1 - 1 = 0
+
+(0 >= 0 && input[0]= 33 > 35) 
+
+exits loop
+
+input[0 + 1] = input[1] = key = 35 
+
+after 3rd loop: 33, 35, 85, 87, 81, 37
+
+4th loop: 
+
+(int i = 4; i < input.length; i++)
+(i = 4; 4 < 6; 4 + 1)
+
+int key = input[4] = 81
+int j = 4 - 1 = 3
+
+(j >= 0 && input[j] > key)
+(3 >= 0 && input[3]=87 > key=81)
+
+input[j+1] = input[3+1] = input[4] = input[3] = 81
+
+temp array: 33, 35, 85, 81, 81, 37
+
+j = j-1 = 3-1 = 2
+
+(2 >= 0 && input[2]=85 > key=81)
+
+input[j+1] = input[2+1] = input[3] = input[2] = 85
+
+temp array: 33, 35, 85, 85, 81, 37
+
+j = j-1 = 2-1 = 1
+
+(1 >= 0 && )
+
+
+
+
+
+
+
+
+
+
+
+
+sorted: 33, 35, 37, 81, 85, 87
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
