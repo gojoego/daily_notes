@@ -1,0 +1,9 @@
+object_oriented_programming
+
+1) What is inheritance? 
+
+	mechanism in which one class acquires property of another class 
+
+2) Why do we use inheritance?
+
+	major purpose of inheritance is to make specific section of project code reusable with possibility of adding or removing certain features later 
