@@ -1,0 +1,46 @@
+methods
+
+1) What makes up a method signature?
+
+	-method signature part of method declaration
+	-combination of method name and parameter list 
+	-overloading: ability to write methods that have same name but accept different parameters
+	-Java compiler able to discern difference between methods and method signatures
+	-every object belongs to a class, class declares methods for objects 
+
+2) Write a method signature that takes 2 ints as parameters and returns a double.
+
+	public statis double divide(int a, int b)
+
+3) When does a method stop executing?
+
+	Once the "return" key word is encountered or all the code in method body has executed 
+
+4) How can you return a string from a method? 
+
+	set return to string
+
+5) What is the return type of a method that does not return any value?
+
+	void
+
+6) When a method returns a value, what needs to be done with that value? 
+
+	needs to be set to a declared variable
+
+7) What is method overloading?
+
+	multiple methods with same signature (access modifier, static/nonstatic, return type) but differing parameters 
+
+8) What is the keyword we use to immediately exit a method and return to the calling method?
+
+	return
+
+9) Demonstrate overloading with 3 methods.
+
+	public static double sum(int a, int b){return a + b;} 
+	public static double sum(double a, double b){return a + b;} 
+	public static double sum(int a, int b, int c){return a + b + c;} 
+
+
+
