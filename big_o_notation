@@ -1,0 +1,42 @@
+big_o_notation
+
+Big O notation gives you one way of describing how the time it takes to run your function grows as the size of the input grows
+
+runtime: time it takes to execute a piece of code 
+
+time complexity: a way of showing how the runtime of a function increases as the size of the input increases 
+
+	how to determine Big O:
+		1. find the fastest growing term 
+		2. take out the coefficient
+
+	linear time: as size of the input increases, the time increases linearly 
+
+		O(n)
+		T = an + b = O(n)
+			n size of the input or number of elements in array
+			a/b constants
+
+		How to determine if T = an + b is O(n)
+		1. find the fastest growing term 
+		2. take out the coefficient
+
+	constant time: time it takes to complete function does not increase at all as size of input increases or time is constant 
+
+		O(1)
+		T = c = someNumber = someNumber x 1 = O(1)
+
+	quadratic time: time it takes to complete function increases like a quadratic function 
+
+		O(n^2)
+		T = cn^2 + dn + e = O(n^2) 
+			cn^2 fastest growing term
+
+		How to determine if T = cn^2 + dn + e is O(n^2)
+		1. find the fastest growing term 
+		2. take out the coefficient
+
+Time complexity and Big O notation give you an idea of how your function scales as the input gets larger and larger. In computer science, there is more concern with the larger inputs because smaller inputs do not take that much time. Another feature is that it does not depend on your particular environment. For example: if you run the same function on an older vs a new computer, it might take longer on the slower computer. But you will still get the same time complexity and Big O. 
+
+
+Notes from CS Dojo video on Big O Notation and Time Complexity: https://www.youtube.com/watch?v=D6xkbGLQesk
